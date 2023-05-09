@@ -29,6 +29,7 @@ public class Fibonachi {
 		for (int i = 2; i <= n; i++) {
 			ar[i] = ar[i-1] + ar[i-2];
 		}
+		
 		bw.write("반복문 사용 :" + String.valueOf(ar[n]));
 		bw.newLine();
 		bw.write("Memoization 사용 :" +String.valueOf(fibonacci(n)));
