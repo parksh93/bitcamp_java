@@ -8,8 +8,9 @@ import java.io.OutputStreamWriter;
 
 //동적 프로그래밍
 public class Fibonachi {
-	static int[] dp = new int[1000];
 	//Memoization 기법
+	static int[] dp = new int[1000];
+	
 	static int fibonacci(int n){
     	if(n == 0) return 0;
         if(n == 1) return 1;
